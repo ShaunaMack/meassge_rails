@@ -24,9 +24,8 @@ default: &default
 development:
   <<: *default
   database: mentor_development
-  host: localhost
-  port: 5432
-  username: postgres
+  # username: database_user
+  # password: user_password
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
